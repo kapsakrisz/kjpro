@@ -49,7 +49,7 @@ function ContactMe({}:Props) {
                     </div>
                     <form 
                     onSubmit={handleSubmit(onSubmit)}
-                    className="flex flex-col space-y-4 ml-10">
+                    className="flex flex-col space-y-4 ml-14">
                         <div className="flex ml-0">
                             <input {...register('name')} placeholder="Name" className="contactInput" type="text"/>
                             <input {...register('email')} placeholder="Email" className="contactInput" type="email"/>
