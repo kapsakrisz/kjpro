@@ -21,11 +21,11 @@ function ContactMe({}:Props) {
 
     return (
         <div className="flex flex-col relative h-screen text-center md:text-left
-        md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center">
+        md:flex-row max-w-6xl px-12 justify-evenly mx-auto items-center">
             <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
                 contact
             </h3>
-            <div className="flex flex-col space-y-10">
+            <div className="flex flex-col space-y-6">
                 <h4 className="text-4xl font-semibold text-center">
                     I have got what you need.{""}
                     <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
@@ -37,20 +37,20 @@ function ContactMe({}:Props) {
                     <p className="text-2xl">07879210673        </p>
                         </div>
 
-                        <div className="flex items-center space-x-5 justify-center">
-                    <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse"/>
+                        <div className="flex items-center space-x-1 justify-center">
+                    <EnvelopeIcon className="text-[#F7AB0A] h-5 w-5 animate-pulse"/>
                     <p className="text-2xl">kj_painting_decorating@gmail.com         </p>
                         </div>
 
-                        <div className="flex items-center space-x-5 justify-center">
+                        <div className="flex items-center space-x-1 justify-center">
                     <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse"/>
                     <p className="text-2xl"></p>
                         </div>
                     </div>
                     <form 
                     onSubmit={handleSubmit(onSubmit)}
-                    className="flex flex-col scape-y-2 w-fit mx-auto">
-                        <div className="flex space-x-2">
+                    className="flex flex-col scape-y-1 w-fit mx-auto">
+                        <div className="flex space-x-1">
                             <input {...register('name')} placeholder="Name" className="contactInput" type="text"/>
                             <input {...register('email')} placeholder="Email" className="contactInput" type="email"/>
                         </div>
