@@ -25,17 +25,11 @@ scale:0.5
             }}
             className="flex flex-row items-center">
                 
-                <SocialIcon url="https://twitter.com/devkapsakrisz"
-                fgColor="gray"
-                bgColor="transparent"
-                />
+                
 
-<SocialIcon url="https://github.com/kapsakrisz"
-                fgColor="gray"
-                bgColor="transparent"
-                />
 
-<SocialIcon url="https://www.facebook.com/krisztian.kaposi.5"
+
+<SocialIcon url="https://www.facebook.com/profile.php?id=100090755273482       "
                 fgColor="gray"
                 bgColor="transparent"
                 />

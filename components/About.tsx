@@ -30,16 +30,23 @@ export default function About({}:Props) {
                 once:true
             }}
 
-            src="/uj.jpg"
-            className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+            src="/janikep.jpg"
+            className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[600px] xl:h-[600px]"
             />
 
             <div className="space-y-10 px-0 md:px-10">
 
-                <h4 className="text-4xl font-semibold">Here is a <span>little</span>  background</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero deleniti fugit corporis! Atque, molestiae vitae, 
-                    labore porro nulla velit cupiditate molestias 
-                    veritatis odio omnis debitis dolorem, dicta ex quas et.</p>
+                <h4 className="text-4xl font-semibold"><span></span>  </h4>
+                <p>K.J. Professional Painting & Decorating 
+
+- Skilled, reliable painting & decorating services.
+- Precise work and reasonable prices.
+- Over 15 years experience.
+- Friendly service.
+- Free paint collection and transport.
+- Free viewing for a quote.
+- All work guaranteed.
+                    </p>
             </div>
             </motion.div>
     )
