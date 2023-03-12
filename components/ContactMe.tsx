@@ -26,7 +26,7 @@ function ContactMe({}:Props) {
                 contact
             </h3>
             <div className="flex flex-col space-y-6">
-                <h4 className="text-4xl font-semibold text-center">
+                <h4 className="text-2xl font-semibold text-center">
                     I have got what you need.{""}
                     <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
                     </h4>
@@ -49,8 +49,8 @@ function ContactMe({}:Props) {
                     </div>
                     <form 
                     onSubmit={handleSubmit(onSubmit)}
-                    className="flex flex-col scape-y-1 w-fit mx-auto">
-                        <div className="flex space-x-1">
+                    className="flex flex-col scape-y-6 w-fit mx-auto">
+                        <div className="flex space-x-6">
                             <input {...register('name')} placeholder="Name" className="contactInput" type="text"/>
                             <input {...register('email')} placeholder="Email" className="contactInput" type="email"/>
                         </div>
