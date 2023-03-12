@@ -22,11 +22,11 @@ function ContactMe({}:Props) {
     return (
         <div className="flex flex-col relative h-screen text-center md:text-left
         md:flex-row max-w-3xl px-2 justify-evenly mx-auto items-center">
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+            <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-xl">
                 contact
             </h3>
-            <div className="flex flex-col space-y-6">
-                <h4 className="text-1.5xl font-semibold text-center">
+            <div className="flex flex-col space-y-8">
+                <h4 className="text-1xl font-semibold text-center">
                     I have got what you need.{""}
                     <span className="decoration-[#F7AB0A]/50 underline">Lets Talk.</span>
                     </h4>
@@ -49,7 +49,7 @@ function ContactMe({}:Props) {
                     </div>
                     <form 
                     onSubmit={handleSubmit(onSubmit)}
-                    className="flex flex-col space-y-4 ml-14">
+                    className="flex flex-col space-y-4 ml-16">
                         <div className="flex ml-0">
                             <input {...register('name')} placeholder="Name" className="contactInput" type="text"/>
                             <input {...register('email')} placeholder="Email" className="contactInput" type="email"/>
