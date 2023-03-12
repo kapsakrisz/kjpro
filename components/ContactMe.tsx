@@ -51,11 +51,11 @@ function ContactMe({}:Props) {
                     onSubmit={handleSubmit(onSubmit)}
                     className="flex flex-col space-y-4 ml-10">
                         <div className="flex ml-0">
-                            <input {...register('name')} placeholder="   Name" className="contactInput" type="text"/>
+                            <input {...register('name')} placeholder="       Name" className="contactInput" type="text"/>
                             <input {...register('email')} placeholder="Email" className="contactInput" type="email"/>
                         </div>
                         <input {...register('subject')} className="contactInput" type="text"/>
-                        <textarea {...register('message')} placeholder="   Message" className="contactInput"/>
+                        <textarea {...register('message')} placeholder="       Message" className="contactInput"/>
                         <button 
                         type="submit"
                         className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">submit</button>
