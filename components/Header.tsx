@@ -30,7 +30,7 @@ scale:0.5
 
 
 <SocialIcon url="https://www.facebook.com/profile.php?id=100090755273482       "
-                fgColor="gray"
+                fgColor="white"
                 bgColor="transparent"
                 />
                 </motion.div>

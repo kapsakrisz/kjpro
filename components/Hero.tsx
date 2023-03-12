@@ -17,7 +17,7 @@ export default function Hero({}:Props) {
             <img className="relative rounded-full h-32 w-32 mx-auto object-cover" src="/janikep.jpg" alt=""/>
 
             <div className="z-20">
-                <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">K.J Professional Painting & Decorating</h2>
+                <h2 className="text-sm uppercase text-white pb-2 tracking-[15px]">K.J Professional Painting & Decorating</h2>
             <h1 className="text-5xl lg:text-6xl font-semibold px-10">
 <span className="mr-3">{text}</span>
 <Cursor cursorColor="#F7AB0A"/>
